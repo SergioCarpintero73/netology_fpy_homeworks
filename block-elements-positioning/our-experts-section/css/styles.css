@@ -21,6 +21,8 @@ body {
 }
 
 .speakers {
+    display: flex;
+    flex-wrap: wrap;
 	margin-top: 50px;
 	border: 3px solid rgba(179, 184, 236, 0.5);
 }
@@ -42,4 +44,12 @@ body {
 	font-weight: 700;
 	font-size: 22px;
 	margin-top: 10px;
+}
+
+.speaker:nth-child(n+4) {
+  border-top: 3px solid #d9dbf5;
+}
+
+.speaker:nth-child(even) {
+  background-color: #f0f1fb;
 }

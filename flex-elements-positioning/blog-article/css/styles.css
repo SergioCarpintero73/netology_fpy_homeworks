@@ -10,15 +10,6 @@ body {
   margin-left: auto;
 }
 
-h1 {
-  font-size: 32px;
-}
-
-a {
-  color: #2980b9;
-  text-decoration: none;
-}
-
 p {
   line-height: 24px;
 }
@@ -32,3 +23,11 @@ p {
   color: #f00000;
 }
 
+.content h1 {
+  font-size: 32px;
+}
+
+.content a {
+  color: #2980b9;
+  text-decoration: none;
+}

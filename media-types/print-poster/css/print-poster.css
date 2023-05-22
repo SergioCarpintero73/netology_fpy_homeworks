@@ -1,0 +1,9 @@
+.container {
+  color: #000000;
+  padding: 1%;
+  border: 20px solid #f69c4f;
+}
+
+.poster {
+  width: 200px;
+}

@@ -14,9 +14,11 @@ p {
 }
 
 .services {
+    width: 1260px;
 	padding-top: 50px;
 	padding-bottom: 50px;
-
+    margin-left: auto;
+    margin-right: auto;
 	display: flex;
 	flex-wrap: wrap;
 	margin-top: 40px;
@@ -27,7 +29,10 @@ p {
 	background-repeat: no-repeat;
 	background-size: 96px;
 	background-position: center 30px;
-
+    padding: 160px 30px 30px;
+    width: 28%;
+	text-align: center;
+	display: table-cell;
 	border-left: 1px solid transparent;
 	border-right: 1px solid transparent;
 	border-bottom: 1px solid rgba(179, 184, 236, 0.5);

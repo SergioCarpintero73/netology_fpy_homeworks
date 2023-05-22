@@ -5,7 +5,6 @@ body {
 }
 
 .news {
-	margin-top: 100px;
 	display: flex;
 	flex-wrap: wrap;
 }
@@ -18,12 +17,30 @@ body {
 	border: 2px solid #f3f4fd;
 }
 
-.card-date {
-	font-size: 13px;
-}
-
 .card-name {
 	margin-top: 0;
 	margin-bottom: 0;
 	font-size: 18px;
+}
+
+.card {
+	border-top: 1px solid #efefef;
+	border-bottom: 1px solid #efefef;
+}
+
+.news {
+  width: 960px;
+  text-align: left;
+  margin: 100px auto;
+}
+
+.card {
+  display: inline-block;
+  padding: 50px 40px;
+  width: 24%;
+}
+
+.card-date {
+  display: block;
+  margin-bottom: 20px;
 }
